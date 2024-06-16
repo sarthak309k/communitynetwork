@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText field for community icon -->
+    <EditText
+        android:id="@+id/et_community_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Community Icon"
+        android:inputType="text" />
+
+    <!-- EditText field for community name -->
+    <EditText
+        android:id="@+id/et_community_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Community Name"
+        android:inputType="text" />
+
+    <!-- EditText field for community description -->
+    <EditText
+        android:id="@+id/et_community_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Community Description"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+</LinearLayout>

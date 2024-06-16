@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+        android:id="@+id/community_id"
+        android:enabled="true"
+        android:icon="@drawable/baseline_groups_24"
+        android:title="Communities"/>
+
+    <item
+        android:id="@+id/events_id"
+        android:enabled="true"
+        android:icon="@drawable/baseline_event_24"
+        android:title="Events" />
+    <item
+        android:id="@+id/user_profile_id"
+        android:icon="@drawable/account_settings_outline"
+        android:title="Account"
+        />
+</menu>

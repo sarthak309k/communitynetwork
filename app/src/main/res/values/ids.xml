@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="community_id" type="id"/>
+    <item name="interactions_id" type="id"/>
+    <item name="events_id" type="id"/>
+    <item name="user_profile_id" type="id"/>
+    <item name="userEmailId" type="id" />
+</resources>
